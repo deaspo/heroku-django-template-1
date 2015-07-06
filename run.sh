@@ -1,0 +1,22 @@
+export DEBUG=1
+export STATIC_URL="/static/"
+export SECRET_KEY="{{ secret_key }}"
+export ALLOWED_HOSTS="{{ project_name }}.com,www.{{ project_name }}.com,{{ project_name }}.herokuapp.com"
+export PG_HOST="REPLACE_THIS_WITH_PG_HOST"
+export PG_DBNAME="REPLACE_THIS_WITH_PG_DBNAME"
+export PG_UNAME="REPLACE_THIS_WITH_PG_UNAME"
+export PG_PORT="REPLACE_THIS_WITH_PG_PORT"
+export PG_PASSWORD="REPLACE_THIS_WITH_PG_PASSWORD"
+# heroku config:set DEBUG=0 --app {{ project_name }}
+# heroku config:set SECRET_KEY="{{ secret_key }}" --app {{ project_name }}
+# heroku config:set WEB_CONCURRENCY=2 --app {{ project_name }}
+# heroku config:set GUNICORN_PID_TIMEOUT=30 --app {{ project_name }}
+# heroku config:set GUNICORN_MAX_REQUESTS=1200 --app {{ project_name }}
+# heroku config:set STATIC_URL="https://REPLACE_THIS_WITH_CLOUD_FRONT_DISTRO.cloudfront.net" --app {{ project_name }}
+# heroku config:set ALLOWED_HOSTS="{{ project_name }}.com,www.{{ project_name }}.com,{{ project_name }}.herokuapp.com" --app {{ project_name }}
+# heroku config:set PG_HOST="REPLACE_THIS_WITH_PG_HOST" --app {{ project_name }}
+# heroku config:set PG_DBNAME="REPLACE_THIS_WITH_PG_DBNAME" --app {{ project_name }}
+# heroku config:set PG_UNAME="REPLACE_THIS_WITH_PG_UNAME" --app {{ project_name }}
+# heroku config:set PG_PORT="REPLACE_THIS_WITH_PG_PORT" --app {{ project_name }}
+# heroku config:set PG_PASSWORD="REPLACE_THIS_WITH_PG_PASSWORD" --app {{ project_name }}
+python {{ project_name }}/manage.py runserver 8010

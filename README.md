@@ -11,4 +11,6 @@ django-admin.py startproject --template=https://github.com/ZIXANLABS/heroku-djan
 
 3) Replace secret key with os.environ['SECRET_KEY'] in project_name/project_name/settings.py
 
+4) Insert CDN URL in settings.py on line 104 replacing REPLACE_THIS_WITH_CLOUD_FRONT_DISTRO.
+
 Any questions, feedback, etc.? Please feel free to drop me a note at zeeshan@zixanlabs.com

@@ -8,5 +8,6 @@ Installation Instructions:
 django-admin.py startproject --template=https://github.com/ZIXANLABS/heroku-django-template/archive/master.zip --name=Procfile helloworld
 ```
 2) Go through run.sh in root directory and make appropraite changes.
+3) Replace secret key with os.environ['SECRET_KEY'] in project_name/project_name/settings.py
 
 Any questions, feedback, etc.? Please feel free to drop me a note at zeeshan@zixanlabs.com

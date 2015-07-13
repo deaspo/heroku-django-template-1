@@ -3,7 +3,7 @@ A modern and easy-to-use Django project template hosted on Heroku.
 
 Installation Instructions:
 
-1) Simply create a new prohect by running this command:
+1) Simply create a new project by running this command:
 ```shell
 django-admin.py startproject --template=https://github.com/ZIXANLABS/heroku-django-template/archive/master.zip --name=Procfile helloworld
 ```

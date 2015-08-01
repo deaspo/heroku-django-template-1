@@ -14,3 +14,9 @@ django-admin.py startproject --template=https://github.com/ZIXANLABS/heroku-djan
 4) Insert CDN URL in settings.py on line 104 replacing REPLACE_THIS_WITH_CLOUD_FRONT_DISTRO.
 
 Any questions, feedback, etc.? Please feel free to drop me a note at zeeshan@zixanlabs.com
+
+
+## Website using this template:
+### Uber Fare Estimator [www.uberfareestimator.co]
+### ZIXANLABS [www.zixanlabs.com]
+### ZippKode [www.zippkode.com]

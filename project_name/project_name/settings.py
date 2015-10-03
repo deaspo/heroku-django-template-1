@@ -123,7 +123,5 @@ STATIC_URL = os.environ.get('STATIC_URL', 'https://REPLACE_THIS_WITH_CLOUD_FRONT
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 STATIC_ROOT = 'staticfiles'
 
-TEMPLATE_DIRS = ('templates',)
-
 # SSL
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
